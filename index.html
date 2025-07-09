@@ -103,15 +103,11 @@
     const password = document.getElementById('password').value;
     const errorMsg = document.getElementById('error-msg');
 
-    if (password === "filmeksandu") {
-      // 5 perces időzített hozzáférés
-      window.location.href = "https://kovacsalexandru77.github.io/skytimeout/?timeout=true";
-    }
-    else if (password === "adminsandufilmek") {
-      // Végtelen hozzáférés (nincs időzítés)
-      window.location.href = "https://kovacsalexandru77.github.io/skytimeout/?timeout=false";
-    }
-    else {
+    if (password === "SKYS") {
+      window.location.href = "https://kovacsalexandru77.github.io/skyss/"; // ✅ Cseréld le a saját linkedre
+    } else if (password === "MINDENEGYBE") {
+      window.location.href = "https://kovacsalexandru77.github.io/MINDEGYBE/"; // ✅ Cseréld le a saját linkedre
+    } else {
       errorMsg.textContent = "Hibás jelszó!";
     }
   }
