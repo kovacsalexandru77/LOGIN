@@ -104,13 +104,12 @@
     const errorMsg = document.getElementById('error-msg');
 
     if (password === "SKYS") {
-      window.location.href = "https://kovacsalexandru77.github.io/skyss/"; // ✅ Cseréld le a saját linkedre
+      window.location.href = "https://kovacsalexandru77.github.io/skyss/";
     } else if (password === "MINDENEGYBE") {
-      window.location.href = "https://kovacsalexandru77.github.io/MINDEGYBE/"; // ✅ Cseréld le a saját linkedre
-    }
-    else if (password === "NETFLIX") {
-      window.location.href = "https://kovacsalexandru77.github.io/NN/"; // ✅ Cseréld le a saját linkedre
-       else {
+      window.location.href = "https://kovacsalexandru77.github.io/MINDEGYBE/";
+    } else if (password === "NETFLIX") {
+      window.location.href = "https://kovacsalexandru77.github.io/NN/";
+    } else {
       errorMsg.textContent = "Hibás jelszó!";
     }
   }
